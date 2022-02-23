@@ -25,7 +25,7 @@
 				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Не важно.</Text>
+				<Text>Неважно.</Text>
 				<DialogueTarget>END</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>

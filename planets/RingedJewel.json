@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Окольцованная Жемчужена",
+	"name" : "Окольцованная Жемчужина",
 	"Base" :
 	{
 		"surfaceGravity" : 12,

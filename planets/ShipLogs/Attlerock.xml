@@ -11,7 +11,7 @@
             <ID>EXAMPLES_SAND</ID> 
             <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
             <RumorName>Песок?</RumorName> 
-            <Text>Фред сказал что положил песок на Террикон.</Text> 
+            <Text>Боб сказал что положил песок на Террикон.</Text> 
         </RumorFact>
 
         <ExploreFact>

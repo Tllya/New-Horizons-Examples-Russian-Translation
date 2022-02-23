@@ -13,7 +13,7 @@
 	{
 		"semiMajorAxis" : 1300,
 		"inclination" : 0,
-		"primaryBody" : "TIMBER_HEARTH",
+		"primaryBody" : "Timber Hearth",
 		"isMoon" : true,
 		"isTidallyLocked" : true,
 		"longitudeOfAscendingNode" : 0,

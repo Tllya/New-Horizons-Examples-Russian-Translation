@@ -1,0 +1,27 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>WETROCK</ID>
+
+    <Entry>
+        <ID>EXAMPLES_WETROCK_ENTRY</ID>
+        <Name>Ветрок</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+ 
+        <RumorFact>
+            <ID>EXAMPLES_ERNESTO_COUSIN_RUMOR</ID>
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Кузэн Эрнесто</RumorName>
+            <Text>Кузен Эрнесто на Ветроке.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_WETROCK_LANDING</ID> 
+            <Text>Он мокрый.</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_COUSIN_FOUND</ID> 
+            <Text>Я нашел кузена Эрнесто! Он мёртв.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

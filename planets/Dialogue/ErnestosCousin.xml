@@ -1,0 +1,14 @@
+<DialogueTree>
+	<NameField>Скелет Удильщика</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Я думаю это кузен Эрнесто.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_COUSIN_FOUND</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

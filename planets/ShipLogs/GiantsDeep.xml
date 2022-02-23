@@ -1,0 +1,27 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>GIANTS_DEEP</ID>
+
+    <Entry>
+        <ID>EXAMPLES_GIANTS_DEEP</ID>
+        <Name>Кольца</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+    
+        <RumorFact>
+            <ID>EXAMPLES_RINGS</ID> 
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Кольца</RumorName> 
+            <Text>Фред дал Пучине Гиганта кольца.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_RINGS_FOUND</ID> 
+            <Text>Я убедился что здесь действительно есть кольца.</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_GIANTS_DEEP_ANGLERS</ID> 
+            <Text>На Пучине Гиганта четыре удильщика. Кажется они мне не рады.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

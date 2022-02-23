@@ -1,0 +1,22 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>TOWER_TWIN</ID>
+
+    <Entry>
+        <ID>EXAMPLES_ASH_TWIN</ID>
+        <Name>Кольца</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+    
+        <RumorFact>
+            <ID>EXAMPLES_LAVA</ID> 
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Лава</RumorName> 
+            <Text>Весь песок на Часе Пепла превратился в лаву. Спасибо Фреду.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_LAVA_FOUND</ID> 
+            <Text>Да, Час Пепла покрыт лавой, это небольшая проблема.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

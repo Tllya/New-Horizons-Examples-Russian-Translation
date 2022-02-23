@@ -1,0 +1,84 @@
+<DialogueTree>
+	<NameField>Эрнесто</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Привет, я Эрнесто, магический и говорящий удильщик.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_ERNESTO</FactID>
+		</RevealFacts>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Вау, ты умеешь говорить?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Что ты думаешь про Гесвальдо?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Ребят, вы откуда?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Увидимся.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Нет, я не могу. Наверное это ошибка.</Page>
+			<Page>Хаха, я пошутил. На самом деле я обучался этому в колледже.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Ох.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Я люблю его, он мой муж.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Это велеколепно. Я рад за вас двоих.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Я и Гесвальдо приехали к моему Кузену на Ветрок, но окуда остальные я не знаю. Я с ними не знаком.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_ERNESTO_COUSIN_RUMOR</FactID>
+		</RevealFacts>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Спасибо за информацию.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>До встречи.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

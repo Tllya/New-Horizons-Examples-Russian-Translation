@@ -1,0 +1,38 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>TIMBER_HEARTH</ID>
+
+    <Entry>
+        <ID>EXAMPLES_UNEXPECTED_GUESTS</ID>
+        <Name>Незванные гости</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+		<IsCuriosity/>
+    
+        <RumorFact>
+            <ID>EXAMPLES_VISITORS_RUMOR</ID> 
+            <RumorName>Гости</RumorName> 
+            <Text>Когда я ложился спать у костра здесь был только Сланец. Кто все остальные?</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_GESWALDO</ID>
+            <Text>Я встретил говорящую медузу. Его зовут Гесвальдо!</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_ERNESTO</ID>
+            <Text>Я встретил говорящего удильщика, которого зовут Эрнесто!</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_FRED</ID>
+            <Text>Там есть живой номаи. Его зовут Фред.</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_BOB</ID>
+            <Text>Там какой-то человек-птица. Вроде-бы его зовут Боб.</Text> 
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

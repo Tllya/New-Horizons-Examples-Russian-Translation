@@ -1,0 +1,98 @@
+<DialogueTree>
+	<NameField>Фред</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Ты что-то искал?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_FRED</FactID>
+		</RevealFacts>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>А разве номаи не вымерли?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>ААААА, ЖИВАЯ НОМАИ?!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Красиво, да?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Не важно.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>О, точно, я совсем забыл. Наверное я умру в другой раз.</Page>
+			<Page>Кстати говоря, ты видел моего брата? Он должен быть где-то в этой солнечной системе.</Page>
+			<Page>Перед исчезновением он говорил про какого-то удильщика, так что я следил за Эрнесто. Но я не думаю, что это он его украл.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Я постараюсь.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Ты искал в Чёрном Терновнике?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Да, сэр. Я номаи</Page>
+			<Page>Я просто тусуюсь здесь.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Но вы же вымерли.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Забудь об этом.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page><![CDATA[<i>Did you try Dark Bramble</i>]]> Серьезно, ты думаешь что я не искал удильщиков там, где они должны быть?</Page>
+			<Page>Я оскорблен такими вопросами.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Прости. Забудь что я сказал</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Да.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Чао.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

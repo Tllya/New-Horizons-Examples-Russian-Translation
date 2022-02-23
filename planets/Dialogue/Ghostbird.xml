@@ -1,0 +1,86 @@
+<DialogueTree>
+	<NameField>Боб</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Хэй чувак, как жизнь?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_BOB</FactID>
+		</RevealFacts>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>А ты не хочешь убить меня?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Хэй.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Что ты тут делаешь?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Ох, точно. Я совсем забыл про это. Ну ладно, в следующий раз.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Хэй.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Yeah.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>На самом деле я волшебник и наколдовал всякие <b>безумные</b> заклинания на твою солнечную систему.</Page>
+			<Page>Я положил песок на какую-то луну, поставил кольца к какому-то газовому гиганту...</Page>
+			<Page>О, а ещё я добавил в вашу систему чёрную и белую дыру.</Page>
+			<Page><b>О</b>, ещё я убрал вашу планету от солнца, так что через несколько месяцев вы умретё от понижения температуры.</Page>
+			<Page>Хотя теперь, вам вроде-бы не нужно об этом беспокоиться.</Page>
+		</Dialogue>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_SAND</FactID>
+			<FactID>EXAMPLES_RINGS</FactID>
+			<FactID>EXAMPLES_LAVA</FactID>
+		</RevealFacts>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Чё?</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Что ты тут делаешь?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>... Бро, я же буквально только что сказал.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

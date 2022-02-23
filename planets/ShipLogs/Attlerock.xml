@@ -1,0 +1,22 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>TIMBER_MOON</ID>
+
+    <Entry>
+        <ID>EXAMPLES_ATTLEROCK</ID>
+        <Name>Песок</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+    
+        <RumorFact>
+            <ID>EXAMPLES_SAND</ID> 
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Песок?</RumorName> 
+            <Text>Фред сказал что положил песок на Террикон.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_SAND_FOUND</ID> 
+            <Text>Да, на Терриконе действительно появился песок.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

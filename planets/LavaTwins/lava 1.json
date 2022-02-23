@@ -11,7 +11,7 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
-		"primaryBody" : "Lava Twins",
+		"primaryBody" : "Лавовые Близнецы",
 		"isMoon" : true,
 		"isTidallyLocked" : true
 	},

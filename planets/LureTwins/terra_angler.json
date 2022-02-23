@@ -27,7 +27,7 @@
 	{
 		"semiMajorAxis" : 0,
 		"inclination" : 4,
-		"primaryBody" : "Lures",
+		"primaryBody" : "Приманки",
 		"tint": {"r": 78, "g": 78, "b": 52, "a": 255},
 		"isTidallyLocked": true,
 		"isMoon": true

@@ -1,7 +1,7 @@
 # English
  This is a mod that is a Russian translation of the New Horizons Examples mod. 
 
-##Autors
+## Autors
 - [xen](https://github.com/xen) - Developer of original mod
 - [Tlya](https://github.com/Tllya) - Developer of Russian translation.
 

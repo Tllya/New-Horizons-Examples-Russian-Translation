@@ -3,20 +3,20 @@
 
     <Entry>
         <ID>EXAMPLES_RINGED_JEWEL</ID>
-        <Name>More rings</Name>
+        <Name>Больше колец</Name>
 
         <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
 
         <RumorFact>
             <ID>EXAMPLES_RINGED_JEWEL_RUMOR</ID> 
             <SourceID>EXAMPLES_GIANTS_DEEP</SourceID> 
-            <RumorName>Other rings</RumorName> 
-            <Text>Giant's Deep isn't the only planet with rings.</Text> 
+            <RumorName>Другие кольца</RumorName> 
+            <Text>Пучина Гиганта - не единственная планета с кольцами.</Text> 
         </RumorFact>
 
         <ExploreFact>
             <ID>EXAMPLES_RINGED_JEWEL_VISIT</ID>
-            <Text>Well that's slightly less habitable than Giant's Deep.</Text> 
+            <Text>Ну, здесь немного хуже чем на Пучине Гиганта.</Text> 
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>

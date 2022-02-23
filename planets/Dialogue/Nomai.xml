@@ -71,7 +71,7 @@
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page><![CDATA[<i>Did you try Dark Bramble</i>]]> Серьезно, ты думаешь что я не искал удильщиков там, где они должны быть?</Page>
+			<Page><![CDATA[<i"Ты искал в Чёрном Терновнике?"</i>]]> Серьезно, ты думаешь что я не искал удильщиков там, где они должны быть?</Page>
 			<Page>Я оскорблен такими вопросами.</Page>
 		</Dialogue>
 		<DialogueOptionsList>

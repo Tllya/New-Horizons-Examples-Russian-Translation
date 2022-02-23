@@ -2,8 +2,8 @@
   "filename": "NewHorizonsConfig.dll",
   "author": "Tlya",
   "name": "New Horizons Examples Russian Translation",
-  "uniqueName": "Tlya.NewHorizonsExamplesRUS",
-  "version": "0.1.2",
+  "uniqueName": "Tlya.NewHorizonsExamplesRUS1",
+  "version": "0.1.3",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
 }

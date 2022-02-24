@@ -48,7 +48,7 @@
 		[
 			{ 
 				"Frequency" : "EscapePod", 
-				"Name" : "Lure Distress Signal", 
+				"Name" : "Сигнал Бедствия с приманки", 
 				"AudioClip" : "OW_NM_EscapePodDistressSignal", 
 				"SourceRadius" : 1, 
 				"DetectionRadius" : 60,

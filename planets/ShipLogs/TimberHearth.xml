@@ -10,7 +10,7 @@
     
         <RumorFact>
             <ID>EXAMPLES_VISITORS_RUMOR</ID> 
-            <RumorName>Гости</RumorName> 
+            <RumorName>Посетители</RumorName> 
             <Text>Когда я ложился спать у костра здесь был только Сланец. Кто все остальные?</Text> 
         </RumorFact>
 
@@ -31,7 +31,7 @@
 
         <ExploreFact>
             <ID>EXAMPLES_BOB</ID>
-            <Text>Там какой-то человек-птица. Вроде-бы его зовут Боб.</Text> 
+            <Text>Рядом с костром находится какой-то Соволень. Вроде-бы его зовут Боб.</Text> 
         </ExploreFact>
 
     </Entry>

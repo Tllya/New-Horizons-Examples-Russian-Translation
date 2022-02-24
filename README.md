@@ -1,3 +1,4 @@
+![logo](https://user-images.githubusercontent.com/94857119/155478235-c7a0498a-48f8-40e6-b347-71d0d4307446.png)
 # English
  This is a mod that is a Russian translation of the New Horizons Examples mod. You don't need to include the original mod to run it.
 ## Autors
